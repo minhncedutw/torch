@@ -1,0 +1,16 @@
+name: torch
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - numpy-base
+  - pip
+  - python=3.6
+  - wheel
+  - wincertstore
+  - pip:
+    - pillow
+    - six
+    - torch
+    - torchvision
